@@ -1,10 +1,13 @@
 import React from "react";
-import Parent from "./components/parent and child/Parent";
+import ChildOne from "./components/optimization/ChildOne";
+import ParentOne from "./components/optimization/ParentOne";
 
 function App() {
   return (
     <div>
-      <Parent />
+      <ParentOne>
+        <ChildOne />
+      </ParentOne>
     </div>
   );
 }
