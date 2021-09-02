@@ -1,10 +1,10 @@
 import React from "react";
-import ObjectUseState from "./components/immutable state/ObjectUseState";
+import Parent from "./components/parent and child/Parent";
 
 function App() {
   return (
     <div>
-      <ObjectUseState />
+      <Parent />
     </div>
   );
 }
