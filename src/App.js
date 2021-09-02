@@ -1,13 +1,12 @@
-import React from 'react'
-import UseReducerRender from './components/UseReducerRender'
-import UseStateRender from './components/UseStateRender'
+import React from "react";
+import ObjectUseState from "./components/immutable state/ObjectUseState";
 
 function App() {
-    return (
-        <div>
-            <UseReducerRender />
-        </div>
-    )
+  return (
+    <div>
+      <ObjectUseState />
+    </div>
+  );
 }
 
-export default App
+export default App;
