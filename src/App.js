@@ -1,13 +1,10 @@
 import React from "react";
-import ChildOne from "./components/optimization/ChildOne";
-import ParentOne from "./components/optimization/ParentOne";
+import Parent from "./components/optimization/reactMemo/Parent";
 
 function App() {
   return (
     <div>
-      <ParentOne>
-        <ChildOne />
-      </ParentOne>
+      <Parent />
     </div>
   );
 }
